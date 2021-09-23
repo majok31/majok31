@@ -1,0 +1,53 @@
+*{ padding: 10;
+	margin: 0;
+
+}
+
+nav{
+	background-color:mediumaquamarine;
+    padding-top:30px ;
+    overflow: hidden;
+    position: relative;
+}
+li{
+	float: left;
+	padding: 30px;
+	padding-top: 30px;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+.logo{
+	width: 150px;
+	height: 120px;
+	float: right;
+	padding-right: 50px;
+}
+.first-section{
+	font-size: 35px;
+	padding-top: 50px;
+	background-size: cover;
+	background-image: url(images/image.jpg);
+     height: 360px;
+     position:relative;
+	background-position: center;
+}
+.first-section p{
+	padding-top: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color:yellow;
+background-color:rebeccapurple;
+
+}
+.footer{
+	background-color:black;
+	height: 50px;
+	font-size: 200%;
+	padding-top: 200px;
+	width: 100%;
+	position: relative;
+}
