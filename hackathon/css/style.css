@@ -1,0 +1,60 @@
+.navbar {
+	position: fixed !important;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.navbar a{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: stencil;
+	color: black;
+}
+.navbar a:hover{
+	background-color: rgb(211, 35, 40);
+	color: white;
+}
+
+.imgt{
+	height: 100vh;
+	color:a(0.2);
+}
+.image{
+	background-size: cover;
+}
+.imgm{
+	 height:100vh;
+}
+.imgn{
+	 height:120vh;
+}
+
+#btn{
+		background:transparent;
+		border-width:2px;
+		border-color: rgb(22,19,26);
+		border-style: solid;
+		color:black;
+		font-family: candara;
+		text-transform: uppercase;
+}
+#btn:hover{
+color:white;	
+background-color:rgb(211, 35, 40);
+}
+
+.join{
+		background:transparent;
+		border-width:2px;
+		border-color: rgb(22,19,26);
+		border-style: solid;
+		color:black;
+		font-family: candara;
+		text-transform: uppercase;
+}
+.join:hover{
+	color:white;	
+	background-color:rgb(211, 35, 40);
+}
+
